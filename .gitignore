@@ -1,0 +1,25 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+.env
+.venv
+env/
+venv/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# Ignore swap files
+*.swp
+*.swo
+
+# Ignore macOS specific files
+*.DS_Store
+
+# Ignore specific folders
+docs/
+testing/
+misc/
